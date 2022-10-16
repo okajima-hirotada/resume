@@ -1,57 +1,51 @@
-# kawamataryo's resume
+# 職務経歴書
 
-[![textlint](https://img.shields.io/github/workflow/status/kawamataryo/resume/lint%20text?label=textlint&logo=github&color=yellow)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22lint+text%22)
-[![build pdf](https://img.shields.io/github/workflow/status/kawamataryo/resume/build-pdf?label=build%20pdf&logo=github)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22build+pdf%22)
-[![create issue](https://img.shields.io/github/workflow/status/kawamataryo/resume/create%20issue?label=create%20issue&logo=github&color=orange)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22create+issue%22)
-[![release date](https://img.shields.io/github/release-date/kawamataryo/resume?color=blue&logo=github)](https://github.com/kawamataryo/resume/releases)
+## 基本情報
 
-[ English | [日本語](https://github.com/kawamataryo/resume/blob/master/README.ja.md) ]
+|key|value|
+|---|---|
+|氏名|岡島 宏忠（Okajima Hirotada）|
+|生年月日|1992/11/06|
+|居住地|神奈川県|
+|最終学歴|名城大学理工学研究科材料機能工学専攻|
 
-## Data
+---
 
-- [GitHub Pages](https://kawamataryo.github.io/resume/)  
-- [PDF](https://github.com/kawamataryo/resume/releases)  
-- [File](https://github.com/kawamataryo/resume/blob/master/docs/README.md)  
-## Features
+## 各種アカウント
+<p>
+  <a href="https://github.com/okajima-hirotada" target="_blank"><img alt="Github" src="https://img.shields.io/badge/okajima-hirotada-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
+</p>
 
-### 💅 Lint text
+---
 
-Automatic proofreading with [textlint](https://github.com/textlint/textlint).
+## 技術スタック
 
-```
-$ yarn lint --fix
-```
-It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  
-proofreading rules are set with `.textlintrc`.
+### 言語
+<p>
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+  <img alt="PHP" src="https://img.shields.io/badge/-PHP-CC342D?style=flat-square&logo=PHP&logoColor=white" />
+  <img alt="Dart" src="https://img.shields.io/badge/-Dart-3776AB?style=flat-square&logo=Dart&logoColor=white" />
+</p>
 
+### フレームワーク
+<p>
+  <img alt="Laravel" src="https://img.shields.io/badge/-Laravel-4FC08D?style=flat-square&logo=Laravel&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-CC0000?style=flat-square&logo=Flutter&logoColor=white" />
+</p>
 
+---
 
-### 📝 Convert Markdown to PDF
+## 職務経歴詳細
 
-You can generate PDF with [md-to-pdf](https://www.npmjs.com/package/md-to-pdf).
+### 株式会社エンシア（2020/11〜現在）
 
-
-```
-$ yarn build:pdf
-```
-
-The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.  
-
-### 🛠 Create release
-
-When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
-
-```
-$ git commit -m "add job"
-$ git tag v1.0
-$ git push origin --tags
-```
-
-### 📆 Remind update
-
-Automatically generate issues every three months with GitHub Actions Schedules triggers to prompt you to update your resume.
-
-To change the duration or stop the job, edit `.github/workflows/create-issue.yml`.  
-To change the issue contents, edit `.github/ISSUE_TEMPLATE.md`.
-
-
+- **プロジェクト詳細：**
+    - TypeScript, Next.jsでの社内管理システム開発
+    - Google Apps Scriptでのスプレットシートを利用した社内業務の効率化
+    - LaravelとVuetifyでの社内管理システム開発
+    - Firebase を利用した push通知機能の開発
+    - PHP, Laravel での API 開発
+    - スクレイピング & WebクローラーツールのOctoparseを用いたスクレイピングシステム開発
+    - Dart, Flutter でのスマホアプリ開発
